@@ -1,0 +1,586 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+SpaFreyaOficial
+</name>
+</assembly>
+<members>
+<member name="T:SpaFreyaOficial.My.Resources.Resources">
+<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar cadeias de caracteres localizadas etc.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.ResourceManager">
+<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.Culture">
+<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources._00fotoCliente">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.agenda">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bairroRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgCargos">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgLeft">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgLeft2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgLogin">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgLoginDown">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.BgLoginUp">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgTab2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.bgTop2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnCargos">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnEntrar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnEntrarRoxo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnFechar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnFuncionarios">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnMaximiza">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnServiços">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.btnTipos">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.button">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cargo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cargoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.celularRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cepRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cidadeRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.complementoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cpf">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cpf1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cpfRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.cpfRosa1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.dataNascimentoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.dataNascimentoRosa1">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.emailRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.enderecoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.estadoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.estetica64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.funcionario">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.gerar">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.hideMenu">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.IdCargoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.IdCargoRosa2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.IdServico">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.IdTipoRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.logout">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.makeup64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.manicure264">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.maquina64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.massagem64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.nomeRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.placas">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.placas2">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.preco">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.rsenhaRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.searchIcon">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.senha">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.senhaRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.servico">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.telefoneRosa">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.tempo">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.tesoura64">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.tipoServico">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.titleCF">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.titleCM">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.titleES">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.TitleMP">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.titleMQ">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:SpaFreyaOficial.My.Resources.Resources.titleMS">
+<summary>
+  Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbAgendaDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCargosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCepDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbClientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbFuncionariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbHorariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoPrestadoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbTipoServicoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbAgendaRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCargosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCepRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbClientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbFuncionariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbHorariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoPrestadoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbTipoServicoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbAgendaRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCargosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbCepRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbClientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbFuncionariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbHorariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbServicoPrestadoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSet.tbTipoServicoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbAgendaTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbCargosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbCepTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbClientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbFuncionariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbHorariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbServicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbServicoPrestadoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.tbTipoServicoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(SpaFreyaOficial.dbSpaBelezaDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(SpaFreyaOficial.dbSpaBelezaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(SpaFreyaOficial.dbSpaBelezaDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.UpdateAll(SpaFreyaOficial.dbSpaBelezaDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:SpaFreyaOficial.dbSpaBelezaDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

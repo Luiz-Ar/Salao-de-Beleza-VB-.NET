@@ -1,0 +1,536 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88C73D62-192B-49DF-BF6D-469ED082AAA5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>SpaFreyaOficial.My.MyApplication</StartupObject>
+    <RootNamespace>SpaFreyaOficial</RootNamespace>
+    <AssemblyName>SpaFreyaOficial</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>SpaFreyaOficial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>SpaFreyaOficial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1400.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="dbSpaBelezaDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dbSpaBelezaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="dbSpaBelezaDataSet.vb">
+      <DependentUpon>dbSpaBelezaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAgendamento.Designer.vb">
+      <DependentUpon>FrmAgendamento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAgendamento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCep.Designer.vb">
+      <DependentUpon>FrmCep.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCep.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmControleCliente.Designer.vb">
+      <DependentUpon>FrmControleCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmControleCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmControleGeral.Designer.vb">
+      <DependentUpon>FrmControleGeral.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmControleGeral.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmFuncionarioTela.Designer.vb">
+      <DependentUpon>FrmFuncionarioTela.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmFuncionarioTela.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.vb">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRel.Designer.vb">
+      <DependentUpon>FrmRel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmServicoPrestado.Designer.vb">
+      <DependentUpon>FrmServicoPrestado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmServicoPrestado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmShow.Designer.vb">
+      <DependentUpon>FrmShow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmShow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVisualizar.Designer.vb">
+      <DependentUpon>FrmVisualizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVisualizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="FrmRelatórios.Designer.vb">
+      <DependentUpon>FrmRelatórios.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRelatórios.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAgendamento.resx">
+      <DependentUpon>FrmAgendamento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCep.resx">
+      <DependentUpon>FrmCep.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmControleCliente.resx">
+      <DependentUpon>FrmControleCliente.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmControleGeral.resx">
+      <DependentUpon>FrmControleGeral.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmFuncionarioTela.resx">
+      <DependentUpon>FrmFuncionarioTela.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRel.resx">
+      <DependentUpon>FrmRel.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmServicoPrestado.resx">
+      <DependentUpon>FrmServicoPrestado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmShow.resx">
+      <DependentUpon>FrmShow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVisualizar.resx">
+      <DependentUpon>FrmVisualizar.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRelatórios.resx">
+      <DependentUpon>FrmRelatórios.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptFuncionarios.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dbSpaBelezaDataSet.xsc">
+      <DependentUpon>dbSpaBelezaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="dbSpaBelezaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dbSpaBelezaDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="dbSpaBelezaDataSet.xss">
+      <DependentUpon>dbSpaBelezaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgTop2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgLeft.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgLeft2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgTab2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{B691E011-1797-432E-907A-4D8C69339129}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ADOR">
+      <Guid>{00000300-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="MDACVer">
+      <Guid>{54AF9343-1923-11D3-9CA4-00C04F72C514}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>50</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\tesoura64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\maquina64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\manicure264.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\makeup64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\massagem64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\estetica64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fotos\00fotoCliente.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\placas2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\titleCF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\titleCM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\titleES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\TitleMP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\titleMQ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\titleMS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\hideMenu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fotos_menu\btnFechar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\fotos_menu\btnMaximiza.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 e x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\agenda.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\searchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\placas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnCargos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnEntrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnFuncionarios.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnServiços.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnTipos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\btnEntrarRoxo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cargo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cargoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\celularRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cepRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cidadeRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\complementoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cpfRosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\dataNascimentoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\emailRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cpfRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\dataNascimentoRosa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\enderecoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\estadoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\funcionario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\IdCargoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\IdCargoRosa2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\IdServico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\IdTipoRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\nomeRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\preco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\rsenhaRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\senhaRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\servico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\telefoneRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\tempo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\tipoServico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgCargos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bairroRosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgLogin.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\cpf.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\senha.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\bgLoginDown.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\BgLoginUp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\icones\gerar.png" />
+    <Content Include="dbSpaBeleza.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\Loader.cs" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>
